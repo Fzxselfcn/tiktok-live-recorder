@@ -7,5 +7,5 @@ services:
       context: .
     volumes:
       - ./data/:/var/data/
-    command: -user majorhustler -mode automatic -output /var/data/ -ffmpeg
+    command: -room_id 7338689440947276550 -mode automatic -output /var/data/ -ffmpeg
     restart: unless-stopped
